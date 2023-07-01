@@ -1,25 +1,133 @@
-body {
-    font-family: ‘Segoe UI’, Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 12px;
-    max-width: 960px;
-    margin: auto;
+h1{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 50px;
+        text-align: center;
 }
-h1 { 
-    font-size: 3em;
-    letter-spacing: .6em; 
-    padding-top: 1em;
-    padding-bottom: 1em; 
- } 
- h2 { 
-    font-size: 1.5em; 
-    padding-bottom: 1em; 
- } 
- h3 { 
-   font-size: 1em; 
-   padding-bottom: 1em; 
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact Info
+{
+    text-underline-position: below;
+    padding-left: 50%;
+    background-color: rgb(231, 219, 219);
+}
+.skills
+{
+    text-underline-position: below;
+    padding-right: 50%;
+    background-color: rgb(240, 235, 235);
+}
+.references
+{
+    text-underline-position: below;
+    padding-right: 50%;
+    color: aquamarine;
  }
-main {
-    display: grid;
-    grid-template-columns: 40% 60%;
-    margin-top: 3em;
-} 
+ #experience {
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 10;
+  }
+  
+  li {
+    margin-bottom: 20px;
+  }
+  
+  li h3 {
+    text-decoration: underline; 
+    margin-bottom: 5px;
+  }
+  
+  li p {
+    margin-bottom: 10px;
+  }
+  
+  li p b {
+    font-weight: bold;
+  }
+  
+  li p em {
+    font-style: italic;
+  }
+  
+ #my-projects {
+    background-color: rgb(25, 46, 32); 
+  }
+  
+ table {
+    width: 70%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    margin-left: auto;
+    margin-right: auto;
+    background: #361a3d;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    color: #333;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  td {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #e9e9e9;
+  }
+  
+  tr:hover {
+    background-color: #ddd;
+  }
+  article h2 {
+    text-decoration: underline;
+  }
+  header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+  }
+
+  footer {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+  }
+  nav {
+    background-color: #f1f1f1;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #181414;
+    padding: 5px 10px;
+  }
+  
+  nav a:hover {
+    background-color: #ddd;
+  }
+  
