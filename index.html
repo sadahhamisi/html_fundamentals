@@ -5,9 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curricullum Vitae</title>
+    <link rel="stylesheet" href="resume.css">
 </head>
-<body>
-    
+<body> <header>
+    <h3>Welcome to My Resume</h3>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+      </nav>
+    </header>
+    <style>
+         #profile-image {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+         }
+    </style>
     <div style="display: flex;">
         <div style="background-color: aliceblue; width: 30%; height: 100%;">
             
@@ -16,15 +33,15 @@
             </div>
     <main>
                 <article>
-                    <div>
-                        <p><b>Contact Details</b></p>
-                        <p>phone: +2547850005<br/>
-                           email: shamisi@kabarak.ac.ke </p>
+                    <div class="contact-info">
+                        <p>Email: <a href="hamisisadah@gmail.com">hamisisadah@gmail.com</a></p>
+                        <p>GitHub: <a href="https://github.com/sadahhamisi" target="_blank">sadahhamisi</a></p>
+                        <p>Instagram: <a href="https://www.twitter.com/SadahHamisi" target="_blank">@SadahHamisi</a></p>
                     </div>
                 </article>
                 <article>
                     <div>
-                        <p><b>Skills</b></p>
+                        <p><h2><b>Skills</b></h2></p>
                         <p>
                         <ol>
                             <li>Leadership</li>
@@ -36,19 +53,21 @@
                 </article>
                 <article>
                     <div>
-                        <p><b>Languages</b></p>
+                        <p><h2><b>Languages</b></h2></p>
                         <p>
                         <ol>
                             <li>English</li>
                             <li>Swahili</li>
-                            <li>Chinese</li>
+                            <li>Html</li>
+                            <li>CSS</li>
+                            <li>Python</li>
                         </ol>
                         </p>
                     </div>
                 </article>
                 <article>
                         <div>
-                            <p><b>Interests/Hobbies</b></p>
+                            <p><h2><b>Intrest/Hobbies</b></h2></p>
                         <p>
                         <ol>
                             <li>Reading</li>
@@ -61,46 +80,81 @@
                 </article>
         </div>
         <article>
-            <div style="background-color:burlywood;width:100%" >
+            <div style="background-color:rgb(168, 135, 222);width:100%" >
                 <div>
-                    <h1 align="center"><i>Sadah Hamisi</i></h1>Curriculum Vitae</h1>
+                    <h1>Sadah Hamisi</h1>
+                    <h2>Curriculum Vitae</h2>
                 </div>
                 <div>
                 </div>
-                <div style="background-color:rgb(127, 128, 68);width:100%" >
-                    <h3 align="center"> My name is Sadah Hamisi, a studen a Kabarak University pursuing Bachelor of Science in Computer Science. I </h3>
+                <div style="background-color:rgb(219, 155, 155);width:100%" >
+                    <h3> My name is Sadah Hamisi, a student a Kabarak University pursuing Bachelor of Science in Computer Science. 
+                        I love to read books and watch documentaries. Reading has help me to discover new things each and every day, watching documentaries hep to understand why some things have to be as they are.
+                        I live a simple and happy life, i also like making friends as they really make you feel alive.
+                    </h3>
             </div>
-            <div>
-                    <div>
-                        <h3 style="background-color:rgb(105, 54, 81);width:100%" >Experience</h3>
-                    </div>
-                    <div>
-                        <p>Worked on a data science project as a team and it was very interractive </p>
-                    </div>
+            <div id-="Exprerience">
+                        <h3>Experience</h3>
             </div>
-            <div>
-              <table>
-                <tr>
+  <ul>
+    <li>
+      <h3>Software Developer</h3>
+      <p><b>Safaricom PLC</b></p>
+      <p><em>2020-2022</em></p>
+      Safaricom Plc is a Kenya-based technology company. The Company is engaged in providing a range of services and solutions, including mobile voice, messaging, data, financial and converged services, and digital services that enable commercial and personal platforms as well as ecosystem partnerships. The Company offers DigiFarm, which is an integrated mobile platform that offers farmers convenient, one-stop access to a suite of information and financial services.
+    </li>
+    <li>
+      <h3>Intern</h3>
+      <p><b>Twiga Foods</b></p>
+      <p><em>2018-2019</em></p>
+      Twiga Foods is a business-to-business marketplace platform that sources produce directly from farmers and delivers it to urban retailers. The company is using a mobile-based, cashless, business-to-business (B2B) supply platform to access distribution into the millions of small and medium-sized vendors in African urban markets. Founded in 2013, Twiga is based in Nairobi, Kenya.
+    </li>
+    <li>
+        <h3>Attachment</h3>
+        <p><b>Kenya Power</b></p>
+        <p><em>2016-2017:</em></p>
+            The Kenya Power and Lighting Company PLC (Kenya Power) owns and operates most of the electricity transmission and distribution system in the country and sells electricity to over 8 million as at end of June 2020.
+            The Company’s vision is to be Kenya’s energy solutions provider of choice by providing quality and reliable service to power people for better lives and enable the country’s socio-economic development in a sustainable manner.
+            Kenya Power’s key mandate is to plan for sufficient electricity generation and transmission capacity to meet demand; build and maintain the power distribution and transmission network and retail electricity to its customers. 
+      </li>
+  </ul>
+            <table id="Educational information">
+                <thead>
+                  <tr>
                     <th>Date</th>
                     <th>Institution</th>
-                    <th>Qualification</th>
-                </tr> 
-                <tr>
-                    <td>12/03/2011</td>
+                    <th>Award</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>2000-2008</td>
+                    <td>Mara Talent Pri</td>
+                    <td>KCPE Certificate</td>
+                  </tr>
+                  <tr>
+                    <td>2010-2014</td>
+                    <td>St. Mary</td>
+                    <td>KCSE Certificate</td>
+                  </tr>
+                  <tr>
+                    <td>2016-2020</td>
                     <td>Kabarak University</td>
-                    <td>Software Developer</td>
-                </tr> 
-              </table>
-
-            </div>
-            <div>
-                Projects and links to the projects goes here
-               <a href = "https://github.com/sadahhamisi/form-styling-using-css"> Github</a>>
-               <a href ="https://github.com/sadahhamisi/simple-safaricom-registration-form"> Github</a>> 
-            </div>
+                    <td>Bachelors Degree Certificate</td>
+                  </tr>
+                </tbody>
+              </table>    
+              <br>          
+              <div id="my-projects">
+                To have a look at my projects, follow the link below:
+                <a href="https://github.com/sadahhamisi/form-styling-using-css">Github</a>
+              </div>              
         </div>
         </article>
     </main>
     </div>
+    <footer>
+        &copy; 2023 My Resume. All rights reserved.
+      </footer>
 </body>
 </html>
